@@ -1,727 +1,737 @@
 <svg fill="none" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .jss20 {
-          display: flex;
-          align-items: center;
-        }
-
-        .jss21 {
-          display: flex;
-          align-items: center;
-        }
-
-        .jss22 {
-          display: flex;
-          align-items: center;
-        }
-
-        .jss23 {
-          display: flex;
-          align-items: center;
-        }
-
-        .MuiGrid-container {
-          width: 100%;
-          display: flex;
-          flex-wrap: wrap;
-          box-sizing: border-box;
-        }
-
-        .MuiGrid-item {
-          margin: 0;
-          box-sizing: border-box;
-        }
-
-        .MuiGrid-justify-xs-center {
-          justify-content: center;
-        }
-
-        .MuiGrid-grid-xs-1 {
-          flex-grow: 0;
-          max-width: 8.333333%;
-          flex-basis: 8.333333%;
-        }
-
-        .MuiGrid-grid-xs-2 {
-          flex-grow: 0;
-          max-width: 16.666667%;
-          flex-basis: 16.666667%;
-        }
-
-        .MuiGrid-grid-xs-3 {
-          flex-grow: 0;
-          max-width: 25%;
-          flex-basis: 25%;
-        }
-
-        .MuiGrid-grid-xs-4 {
-          flex-grow: 0;
-          max-width: 33.333333%;
-          flex-basis: 33.333333%;
-        }
-
-        .MuiGrid-grid-xs-5 {
-          flex-grow: 0;
-          max-width: 41.666667%;
-          flex-basis: 41.666667%;
-        }
-
-        .MuiGrid-grid-xs-6 {
-          flex-grow: 0;
-          max-width: 50%;
-          flex-basis: 50%;
-        }
-
-        .MuiGrid-grid-xs-7 {
-          flex-grow: 0;
-          max-width: 58.333333%;
-          flex-basis: 58.333333%;
-        }
-
-        .MuiGrid-grid-xs-8 {
-          flex-grow: 0;
-          max-width: 66.666667%;
-          flex-basis: 66.666667%;
-        }
-
-        .MuiGrid-grid-xs-9 {
-          flex-grow: 0;
-          max-width: 75%;
-          flex-basis: 75%;
-        }
-
-        .MuiGrid-grid-xs-10 {
-          flex-grow: 0;
-          max-width: 83.333333%;
-          flex-basis: 83.333333%;
-        }
-
-        .MuiGrid-grid-xs-11 {
-          flex-grow: 0;
-          max-width: 91.666667%;
-          flex-basis: 91.666667%;
-        }
-
-        .MuiGrid-grid-xs-12 {
-          flex-grow: 0;
-          max-width: 100%;
-          flex-basis: 100%;
-        }
-
-        @media (min-width: 1280px) {
-          .MuiGrid-grid-md-1 {
-            flex-grow: 0;
-            max-width: 8.333333%;
-            flex-basis: 8.333333%;
-          }
-
-          .MuiGrid-grid-md-2 {
-            flex-grow: 0;
-            max-width: 16.666667%;
-            flex-basis: 16.666667%;
-          }
-
-          .MuiGrid-grid-md-3 {
-            flex-grow: 0;
-            max-width: 25%;
-            flex-basis: 25%;
-          }
-
-          .MuiGrid-grid-md-4 {
-            flex-grow: 0;
-            max-width: 33.333333%;
-            flex-basis: 33.333333%;
-          }
-
-          .MuiGrid-grid-md-5 {
-            flex-grow: 0;
-            max-width: 41.666667%;
-            flex-basis: 41.666667%;
-          }
-
-          .MuiGrid-grid-md-6 {
-            flex-grow: 0;
-            max-width: 50%;
-            flex-basis: 50%;
-          }
-
-          .MuiGrid-grid-md-7 {
-            flex-grow: 0;
-            max-width: 58.333333%;
-            flex-basis: 58.333333%;
-          }
-
-          .MuiGrid-grid-md-8 {
-            flex-grow: 0;
-            max-width: 66.666667%;
-            flex-basis: 66.666667%;
-          }
-
-          .MuiGrid-grid-md-9 {
-            flex-grow: 0;
-            max-width: 75%;
-            flex-basis: 75%;
-          }
-
-          .MuiGrid-grid-md-10 {
-            flex-grow: 0;
-            max-width: 83.333333%;
-            flex-basis: 83.333333%;
-          }
-
-          .MuiGrid-grid-md-11 {
-            flex-grow: 0;
-            max-width: 91.666667%;
-            flex-basis: 91.666667%;
-          }
-
-          .MuiGrid-grid-md-12 {
-            flex-grow: 0;
-            max-width: 100%;
-            flex-basis: 100%;
-          }
-        }
-
-        @media (min-width: 1920px) {
-          .MuiGrid-grid-lg-1 {
-            flex-grow: 0;
-            max-width: 8.333333%;
-            flex-basis: 8.333333%;
-          }
-
-          .MuiGrid-grid-lg-2 {
-            flex-grow: 0;
-            max-width: 16.666667%;
-            flex-basis: 16.666667%;
-          }
-
-          .MuiGrid-grid-lg-3 {
-            flex-grow: 0;
-            max-width: 25%;
-            flex-basis: 25%;
-          }
-
-          .MuiGrid-grid-lg-4 {
-            flex-grow: 0;
-            max-width: 33.333333%;
-            flex-basis: 33.333333%;
-          }
-
-          .MuiGrid-grid-lg-5 {
-            flex-grow: 0;
-            max-width: 41.666667%;
-            flex-basis: 41.666667%;
-          }
-
-          .MuiGrid-grid-lg-6 {
-            flex-grow: 0;
-            max-width: 50%;
-            flex-basis: 50%;
-          }
-
-          .MuiGrid-grid-lg-7 {
-            flex-grow: 0;
-            max-width: 58.333333%;
-            flex-basis: 58.333333%;
-          }
-
-          .MuiGrid-grid-lg-8 {
-            flex-grow: 0;
-            max-width: 66.666667%;
-            flex-basis: 66.666667%;
-          }
-
-          .MuiGrid-grid-lg-9 {
-            flex-grow: 0;
-            max-width: 75%;
-            flex-basis: 75%;
-          }
-
-          .MuiGrid-grid-lg-10 {
-            flex-grow: 0;
-            max-width: 83.333333%;
-            flex-basis: 83.333333%;
-          }
-
-          .MuiGrid-grid-lg-11 {
-            flex-grow: 0;
-            max-width: 91.666667%;
-            flex-basis: 91.666667%;
-          }
-
-          .MuiGrid-grid-lg-12 {
-            flex-grow: 0;
-            max-width: 100%;
-            flex-basis: 100%;
-          }
-        }
-
-        @media (min-width: 2560px) {
-          .MuiGrid-grid-xl-1 {
-            flex-grow: 0;
-            max-width: 8.333333%;
-            flex-basis: 8.333333%;
-          }
-
-          .MuiGrid-grid-xl-2 {
-            flex-grow: 0;
-            max-width: 16.666667%;
-            flex-basis: 16.666667%;
-          }
-
-          .MuiGrid-grid-xl-3 {
-            flex-grow: 0;
-            max-width: 25%;
-            flex-basis: 25%;
-          }
-
-          .MuiGrid-grid-xl-4 {
-            flex-grow: 0;
-            max-width: 33.333333%;
-            flex-basis: 33.333333%;
-          }
-
-          .MuiGrid-grid-xl-5 {
-            flex-grow: 0;
-            max-width: 41.666667%;
-            flex-basis: 41.666667%;
-          }
-
-          .MuiGrid-grid-xl-6 {
-            flex-grow: 0;
-            max-width: 50%;
-            flex-basis: 50%;
-          }
-
-          .MuiGrid-grid-xl-7 {
-            flex-grow: 0;
-            max-width: 58.333333%;
-            flex-basis: 58.333333%;
-          }
-
-          .MuiGrid-grid-xl-8 {
-            flex-grow: 0;
-            max-width: 66.666667%;
-            flex-basis: 66.666667%;
-          }
-
-          .MuiGrid-grid-xl-9 {
-            flex-grow: 0;
-            max-width: 75%;
-            flex-basis: 75%;
-          }
-
-          .MuiGrid-grid-xl-10 {
-            flex-grow: 0;
-            max-width: 83.333333%;
-            flex-basis: 83.333333%;
-          }
-
-          .MuiGrid-grid-xl-11 {
-            flex-grow: 0;
-            max-width: 91.666667%;
-            flex-basis: 91.666667%;
-          }
-
-          .MuiGrid-grid-xl-12 {
-            flex-grow: 0;
-            max-width: 100%;
-            flex-basis: 100%;
-          }
-        }
-
-        .MuiTypography-root {
-          margin: 0;
-        }
-
-        *,
-        ::after,
-        ::before {
-          box-sizing: inherit;
-        }
-
-        strong {
-          font-weight: 700;
-        }
-
-        body::-webkit-backdrop {
-          background-color: #303030;
-        }
-
-        body::backdrop {
-          background-color: #303030;
-        }
-
-        .jss72 {
-          padding: 64px 16px;
-          background-color: #616161;
-        }
-
-        @media (max-width: 1279.95px) {
-          .jss72 {
-            padding: 32px;
-          }
-        }
-
-        .jss73 {
-          width: 100%;
-          height: 100%;
-        }
-
-        @media (max-width: 1279.95px) {
-          .jss73 {
-            width: 240px;
-            height: 240px;
-          }
-        }
-
-        .jss74 {
-          padding: 0 32px 0 0;
-        }
-
-        @media (max-width: 1279.95px) {
-          .jss74 {
-            display: flex;
-            padding: 16px 32px;
-            justify-content: center;
-          }
-        }
-
-        .jss75 {
-          padding: 64px 16px;
-        }
-
-        @media (max-width: 1279.95px) {
-          .jss75 {
-            padding: 32px;
-          }
-        }
-
-        .jss76 {
-          margin: 0 8px;
-        }
-
-        @media (max-width: 599.95px) {
-          .jss76 {
-            margin: 0 4px;
-          }
-        }
-
-        .jss77 {
-          font-size: 1.7rem;
-        }
-
-        .jss54 {
-          padding: 4px;
-        }
-
-        .jss67 {
-          padding: 64px 16px;
-        }
-
-        @media (max-width: 1279.95px) {
-          .jss67 {
-            padding: 32px;
-          }
-        }
-
-        .jss68 {
-          margin: 16px 8px;
-        }
-
-        .jss69 {
-          display: flex;
-          align-items: center;
-          justify-content: flex-end;
-        }
-
-        @media (max-width: 1279.95px) {
-          .jss69 {
-            padding: 16px 0;
-            justify-content: center;
-          }
-        }
-
-        .jss70 {
-          width: 100%;
-          max-width: 110px;
-        }
-
-        .jss71 {
-          margin-top: 16px;
-        }
-
-        .jss32 {
-          width: 100%;
-          padding: 16px 0;
-        }
-
-        .jss33 {
-          height: 30px;
-          display: flex;
-          padding: 8px;
-          align-items: center;
-          border-radius: 8px 8px 0 0;
-          justify-content: flex-end;
-          background-color: #212121;
-        }
-
-        .jss34 {
-          width: 15px;
-          height: 15px;
-          margin: 8px;
-          border-radius: 50%;
-        }
-
-        .jss35 {
-          background-color: #ff9800;
-        }
-
-        .jss36 {
-          background-color: #4caf50;
-        }
-
-        .jss37 {
-          background-color: #f44336;
-        }
-
-        .jss38 {
-          padding: 8px;
-          min-height: 350px;
-          border-radius: 0 0 8px 8px;
-          background-color: #303030;
-        }
-
-        .jss38 p {
-          color: #fff;
-          margin: 16px;
-          font-size: 1rem;
-          font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Monospace;
-        }
-
-        @media (max-width: 599.95px) {
-          .jss38 {
-            min-height: 500px;
-          }
-        }
-
-        .jss39 {
-          animation: jss40 1s linear infinite;
-          background-color: #fff;
-        }
-
-        @keyframes jss40 {
-          0% {
-            opacity: 0;
-          }
-
-          40% {
-            opacity: 0;
-          }
-
-          50% {
-            opacity: 1;
-          }
-
-          90% {
-            opacity: 1;
-          }
-
-          100% {
-            opacity: 0;
-          }
-        }
-
-        .jss41 {
-          display: flex;
-        }
-
-        .jss42 {
-          margin-left: 9px;
-        }
-
-        .jss25 {
-          width: 200px;
-          height: 200px;
-        }
-
-        .jss26 {
-          padding: 16px 0;
-        }
-
-        .jss27 {
-          padding: 16px;
-        }
-
-        .jss28 {
-          height: 100%;
-          display: flex;
-          padding: 16px 0;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .jss29 {
-          margin: 16px 8px;
-          padding: 16px 32px;
-        }
-
-        .jss31 {
-          padding: 0 32px;
-        }
-
-        .jss49 {
-          padding: 64px 16px;
-        }
-
-        .jss50 {
-          padding: 16px;
-          background-color: #616161;
-        }
-
-        .jss51 {
-          padding: 6px 16px;
-          overflow: hidden;
-        }
-
-        .jss52 {
-          box-shadow: none;
-          border-width: 4px;
-        }
-
-        .jss53 {
-          display: block;
-        }
-
-        .jss1 {
-          min-height: 56px;
-        }
-
-        .jss4 {
-          width: 250px;
-        }
-
-        .jss5 {
-          font-weight: 600;
-        }
-
-        .jss6 {
-          cursor: pointer;
-          margin: 0 16px;
-          font-weight: 600;
-        }
-
-        .jss7 {
-          margin-left: 51.19px;
-        }
-
-        .jss8 {
-          right: 30px;
-          bottom: 30px;
-          position: fixed;
-          font-size: 1.875rem;
-          box-shadow: none;
-        }
-
-        .jss9 {
-          font-size: 1.7rem;
-        }
-
-        .jss10 {
-          right: 0;
-          bottom: 0;
-          padding: 8px;
-          position: fixed;
-        }
-
-        .jss13 {
-          display: none;
-        }
-
-        .jss14 {
-          width: 80px;
-          height: 80px;
-        }
-
-        .jss15 {
-          padding-right: 12px;
-        }
-
-        .jss16 {
-          margin: 0 8px;
-        }
-
-        .jss17 {
-          padding-top: 28px;
-        }
-
-        .jss55 {
-          padding: 64px 16px;
-          background-color: #616161;
-        }
-
-        .jss56 {
-          width: 100%;
-          margin: 16px;
-          max-width: 110px;
-        }
-
-        .jss57 {
-          padding: 8px;
-        }
-
-        .jss58 {
-          margin: 8px 16px;
-        }
-      </style>
-      <div class="MuiGrid-root MuiGrid-container">
-        <div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-12">
-          <div class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center">
-            <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-xs-center MuiGrid-grid-xs-12 MuiGrid-grid-md-10 MuiGrid-grid-lg-8 MuiGrid-grid-xl-6">
-              <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
-                <div class="MuiBox-root jss43 jss32">
-                  <div class="MuiBox-root jss44 jss33">
-                    <div class="MuiBox-root jss45 jss34 jss35"></div>
-                    <div class="MuiBox-root jss46 jss34 jss36"></div>
-                    <div class="MuiBox-root jss47 jss34 jss37"></div>
-                  </div>
-                  <div class="MuiBox-root jss48 jss38">
-                    <div class="MuiBox-root jss78" style="display: block">
-                      <p class="MuiTypography-root jss41 MuiTypography-body1">
-                        $ ./chad-lefort.sh
-                      </p>
-                      <p class="MuiTypography-root MuiTypography-body1">
-                        &gt; Hello, I'm Chad, a frontend engineer from Covington,
-                        Louisiana.
-                      </p>
-                      <p class="MuiTypography-root MuiTypography-body1">
-                        &gt; I’ve always had a strong passion for the web. Shortly
-                        after I was given my first computer, I grew interested in
-                        web development.
-                      </p>
-                      <p class="MuiTypography-root MuiTypography-body1">
-                        &gt; I'm constantly furthering my skills to keep up with
-                        the ever changing demand the web has.
-                      </p>
-                      <p class="MuiTypography-root MuiTypography-body1">
-                        &gt; I've always enjoyed the feeling of accomplishment
-                        when programming, and I take pride in writing clean,
-                        maintainable, and efficient code.
-                      </p>
-                      <p class="MuiTypography-root MuiTypography-body1">
-                        $ <span class="jss39">!</span>
-                      </p>
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                .jss20 {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .jss21 {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .jss22 {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .jss23 {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .MuiGrid-container {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    box-sizing: border-box;
+                }
+
+                .MuiGrid-item {
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+
+                .MuiGrid-justify-xs-center {
+                    justify-content: center;
+                }
+
+                .MuiGrid-grid-xs-1 {
+                    flex-grow: 0;
+                    max-width: 8.333333%;
+                    flex-basis: 8.333333%;
+                }
+
+                .MuiGrid-grid-xs-2 {
+                    flex-grow: 0;
+                    max-width: 16.666667%;
+                    flex-basis: 16.666667%;
+                }
+
+                .MuiGrid-grid-xs-3 {
+                    flex-grow: 0;
+                    max-width: 25%;
+                    flex-basis: 25%;
+                }
+
+                .MuiGrid-grid-xs-4 {
+                    flex-grow: 0;
+                    max-width: 33.333333%;
+                    flex-basis: 33.333333%;
+                }
+
+                .MuiGrid-grid-xs-5 {
+                    flex-grow: 0;
+                    max-width: 41.666667%;
+                    flex-basis: 41.666667%;
+                }
+
+                .MuiGrid-grid-xs-6 {
+                    flex-grow: 0;
+                    max-width: 50%;
+                    flex-basis: 50%;
+                }
+
+                .MuiGrid-grid-xs-7 {
+                    flex-grow: 0;
+                    max-width: 58.333333%;
+                    flex-basis: 58.333333%;
+                }
+
+                .MuiGrid-grid-xs-8 {
+                    flex-grow: 0;
+                    max-width: 66.666667%;
+                    flex-basis: 66.666667%;
+                }
+
+                .MuiGrid-grid-xs-9 {
+                    flex-grow: 0;
+                    max-width: 75%;
+                    flex-basis: 75%;
+                }
+
+                .MuiGrid-grid-xs-10 {
+                    flex-grow: 0;
+                    max-width: 83.333333%;
+                    flex-basis: 83.333333%;
+                }
+
+                .MuiGrid-grid-xs-11 {
+                    flex-grow: 0;
+                    max-width: 91.666667%;
+                    flex-basis: 91.666667%;
+                }
+
+                .MuiGrid-grid-xs-12 {
+                    flex-grow: 0;
+                    max-width: 100%;
+                    flex-basis: 100%;
+                }
+
+                @media (min-width: 1280px) {
+                    .MuiGrid-grid-md-1 {
+                        flex-grow: 0;
+                        max-width: 8.333333%;
+                        flex-basis: 8.333333%;
+                    }
+
+                    .MuiGrid-grid-md-2 {
+                        flex-grow: 0;
+                        max-width: 16.666667%;
+                        flex-basis: 16.666667%;
+                    }
+
+                    .MuiGrid-grid-md-3 {
+                        flex-grow: 0;
+                        max-width: 25%;
+                        flex-basis: 25%;
+                    }
+
+                    .MuiGrid-grid-md-4 {
+                        flex-grow: 0;
+                        max-width: 33.333333%;
+                        flex-basis: 33.333333%;
+                    }
+
+                    .MuiGrid-grid-md-5 {
+                        flex-grow: 0;
+                        max-width: 41.666667%;
+                        flex-basis: 41.666667%;
+                    }
+
+                    .MuiGrid-grid-md-6 {
+                        flex-grow: 0;
+                        max-width: 50%;
+                        flex-basis: 50%;
+                    }
+
+                    .MuiGrid-grid-md-7 {
+                        flex-grow: 0;
+                        max-width: 58.333333%;
+                        flex-basis: 58.333333%;
+                    }
+
+                    .MuiGrid-grid-md-8 {
+                        flex-grow: 0;
+                        max-width: 66.666667%;
+                        flex-basis: 66.666667%;
+                    }
+
+                    .MuiGrid-grid-md-9 {
+                        flex-grow: 0;
+                        max-width: 75%;
+                        flex-basis: 75%;
+                    }
+
+                    .MuiGrid-grid-md-10 {
+                        flex-grow: 0;
+                        max-width: 83.333333%;
+                        flex-basis: 83.333333%;
+                    }
+
+                    .MuiGrid-grid-md-11 {
+                        flex-grow: 0;
+                        max-width: 91.666667%;
+                        flex-basis: 91.666667%;
+                    }
+
+                    .MuiGrid-grid-md-12 {
+                        flex-grow: 0;
+                        max-width: 100%;
+                        flex-basis: 100%;
+                    }
+                }
+
+                @media (min-width: 1920px) {
+                    .MuiGrid-grid-lg-1 {
+                        flex-grow: 0;
+                        max-width: 8.333333%;
+                        flex-basis: 8.333333%;
+                    }
+
+                    .MuiGrid-grid-lg-2 {
+                        flex-grow: 0;
+                        max-width: 16.666667%;
+                        flex-basis: 16.666667%;
+                    }
+
+                    .MuiGrid-grid-lg-3 {
+                        flex-grow: 0;
+                        max-width: 25%;
+                        flex-basis: 25%;
+                    }
+
+                    .MuiGrid-grid-lg-4 {
+                        flex-grow: 0;
+                        max-width: 33.333333%;
+                        flex-basis: 33.333333%;
+                    }
+
+                    .MuiGrid-grid-lg-5 {
+                        flex-grow: 0;
+                        max-width: 41.666667%;
+                        flex-basis: 41.666667%;
+                    }
+
+                    .MuiGrid-grid-lg-6 {
+                        flex-grow: 0;
+                        max-width: 50%;
+                        flex-basis: 50%;
+                    }
+
+                    .MuiGrid-grid-lg-7 {
+                        flex-grow: 0;
+                        max-width: 58.333333%;
+                        flex-basis: 58.333333%;
+                    }
+
+                    .MuiGrid-grid-lg-8 {
+                        flex-grow: 0;
+                        max-width: 66.666667%;
+                        flex-basis: 66.666667%;
+                    }
+
+                    .MuiGrid-grid-lg-9 {
+                        flex-grow: 0;
+                        max-width: 75%;
+                        flex-basis: 75%;
+                    }
+
+                    .MuiGrid-grid-lg-10 {
+                        flex-grow: 0;
+                        max-width: 83.333333%;
+                        flex-basis: 83.333333%;
+                    }
+
+                    .MuiGrid-grid-lg-11 {
+                        flex-grow: 0;
+                        max-width: 91.666667%;
+                        flex-basis: 91.666667%;
+                    }
+
+                    .MuiGrid-grid-lg-12 {
+                        flex-grow: 0;
+                        max-width: 100%;
+                        flex-basis: 100%;
+                    }
+                }
+
+                @media (min-width: 2560px) {
+                    .MuiGrid-grid-xl-1 {
+                        flex-grow: 0;
+                        max-width: 8.333333%;
+                        flex-basis: 8.333333%;
+                    }
+
+                    .MuiGrid-grid-xl-2 {
+                        flex-grow: 0;
+                        max-width: 16.666667%;
+                        flex-basis: 16.666667%;
+                    }
+
+                    .MuiGrid-grid-xl-3 {
+                        flex-grow: 0;
+                        max-width: 25%;
+                        flex-basis: 25%;
+                    }
+
+                    .MuiGrid-grid-xl-4 {
+                        flex-grow: 0;
+                        max-width: 33.333333%;
+                        flex-basis: 33.333333%;
+                    }
+
+                    .MuiGrid-grid-xl-5 {
+                        flex-grow: 0;
+                        max-width: 41.666667%;
+                        flex-basis: 41.666667%;
+                    }
+
+                    .MuiGrid-grid-xl-6 {
+                        flex-grow: 0;
+                        max-width: 50%;
+                        flex-basis: 50%;
+                    }
+
+                    .MuiGrid-grid-xl-7 {
+                        flex-grow: 0;
+                        max-width: 58.333333%;
+                        flex-basis: 58.333333%;
+                    }
+
+                    .MuiGrid-grid-xl-8 {
+                        flex-grow: 0;
+                        max-width: 66.666667%;
+                        flex-basis: 66.666667%;
+                    }
+
+                    .MuiGrid-grid-xl-9 {
+                        flex-grow: 0;
+                        max-width: 75%;
+                        flex-basis: 75%;
+                    }
+
+                    .MuiGrid-grid-xl-10 {
+                        flex-grow: 0;
+                        max-width: 83.333333%;
+                        flex-basis: 83.333333%;
+                    }
+
+                    .MuiGrid-grid-xl-11 {
+                        flex-grow: 0;
+                        max-width: 91.666667%;
+                        flex-basis: 91.666667%;
+                    }
+
+                    .MuiGrid-grid-xl-12 {
+                        flex-grow: 0;
+                        max-width: 100%;
+                        flex-basis: 100%;
+                    }
+                }
+
+                .MuiTypography-root {
+                    margin: 0;
+                }
+
+                *,
+                ::after,
+                ::before {
+                    box-sizing: inherit;
+                }
+
+                strong {
+                    font-weight: 700;
+                }
+
+                body::-webkit-backdrop {
+                    background-color: #303030;
+                }
+
+                body::backdrop {
+                    background-color: #303030;
+                }
+
+                .jss72 {
+                    padding: 64px 16px;
+                    background-color: #616161;
+                }
+
+                @media (max-width: 1279.95px) {
+                    .jss72 {
+                        padding: 32px;
+                    }
+                }
+
+                .jss73 {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                @media (max-width: 1279.95px) {
+                    .jss73 {
+                        width: 240px;
+                        height: 240px;
+                    }
+                }
+
+                .jss74 {
+                    padding: 0 32px 0 0;
+                }
+
+                @media (max-width: 1279.95px) {
+                    .jss74 {
+                        display: flex;
+                        padding: 16px 32px;
+                        justify-content: center;
+                    }
+                }
+
+                .jss75 {
+                    padding: 64px 16px;
+                }
+
+                @media (max-width: 1279.95px) {
+                    .jss75 {
+                        padding: 32px;
+                    }
+                }
+
+                .jss76 {
+                    margin: 0 8px;
+                }
+
+                @media (max-width: 599.95px) {
+                    .jss76 {
+                        margin: 0 4px;
+                    }
+                }
+
+                .jss77 {
+                    font-size: 1.7rem;
+                }
+
+                .jss54 {
+                    padding: 4px;
+                }
+
+                .jss67 {
+                    padding: 64px 16px;
+                }
+
+                @media (max-width: 1279.95px) {
+                    .jss67 {
+                        padding: 32px;
+                    }
+                }
+
+                .jss68 {
+                    margin: 16px 8px;
+                }
+
+                .jss69 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                }
+
+                @media (max-width: 1279.95px) {
+                    .jss69 {
+                        padding: 16px 0;
+                        justify-content: center;
+                    }
+                }
+
+                .jss70 {
+                    width: 100%;
+                    max-width: 110px;
+                }
+
+                .jss71 {
+                    margin-top: 16px;
+                }
+
+                .jss32 {
+                    width: 100%;
+                    padding: 16px 0;
+                }
+
+                .jss33 {
+                    height: 30px;
+                    display: flex;
+                    padding: 8px;
+                    align-items: center;
+                    border-radius: 8px 8px 0 0;
+                    justify-content: flex-end;
+                    background-color: #212121;
+                }
+
+                .jss34 {
+                    width: 15px;
+                    height: 15px;
+                    margin: 8px;
+                    border-radius: 50%;
+                }
+
+                .jss35 {
+                    background-color: #ff9800;
+                }
+
+                .jss36 {
+                    background-color: #4caf50;
+                }
+
+                .jss37 {
+                    background-color: #f44336;
+                }
+
+                .jss38 {
+                    padding: 8px;
+                    min-height: 350px;
+                    border-radius: 0 0 8px 8px;
+                    background-color: #303030;
+                }
+
+                .jss38 p {
+                    color: #fff;
+                    margin: 16px;
+                    font-size: 1rem;
+                    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Monospace;
+                }
+
+                @media (max-width: 599.95px) {
+                    .jss38 {
+                        min-height: 500px;
+                    }
+                }
+
+                .jss39 {
+                    animation: jss40 1s linear infinite;
+                    background-color: #fff;
+                }
+
+                @keyframes jss40 {
+                    0% {
+                        opacity: 0;
+                    }
+
+                    40% {
+                        opacity: 0;
+                    }
+
+                    50% {
+                        opacity: 1;
+                    }
+
+                    90% {
+                        opacity: 1;
+                    }
+
+                    100% {
+                        opacity: 0;
+                    }
+                }
+
+                .jss41 {
+                    display: flex;
+                }
+
+                .jss42 {
+                    margin-left: 9px;
+                }
+
+                .jss25 {
+                    width: 200px;
+                    height: 200px;
+                }
+
+                .jss26 {
+                    padding: 16px 0;
+                }
+
+                .jss27 {
+                    padding: 16px;
+                }
+
+                .jss28 {
+                    height: 100%;
+                    display: flex;
+                    padding: 16px 0;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .jss29 {
+                    margin: 16px 8px;
+                    padding: 16px 32px;
+                }
+
+                .jss31 {
+                    padding: 0 32px;
+                }
+
+                .jss49 {
+                    padding: 64px 16px;
+                }
+
+                .jss50 {
+                    padding: 16px;
+                    background-color: #616161;
+                }
+
+                .jss51 {
+                    padding: 6px 16px;
+                    overflow: hidden;
+                }
+
+                .jss52 {
+                    box-shadow: none;
+                    border-width: 4px;
+                }
+
+                .jss53 {
+                    display: block;
+                }
+
+                .jss1 {
+                    min-height: 56px;
+                }
+
+                .jss4 {
+                    width: 250px;
+                }
+
+                .jss5 {
+                    font-weight: 600;
+                }
+
+                .jss6 {
+                    cursor: pointer;
+                    margin: 0 16px;
+                    font-weight: 600;
+                }
+
+                .jss7 {
+                    margin-left: 51.19px;
+                }
+
+                .jss8 {
+                    right: 30px;
+                    bottom: 30px;
+                    position: fixed;
+                    font-size: 1.875rem;
+                    box-shadow: none;
+                }
+
+                .jss9 {
+                    font-size: 1.7rem;
+                }
+
+                .jss10 {
+                    right: 0;
+                    bottom: 0;
+                    padding: 8px;
+                    position: fixed;
+                }
+
+                .jss13 {
+                    display: none;
+                }
+
+                .jss14 {
+                    width: 80px;
+                    height: 80px;
+                }
+
+                .jss15 {
+                    padding-right: 12px;
+                }
+
+                .jss16 {
+                    margin: 0 8px;
+                }
+
+                .jss17 {
+                    padding-top: 28px;
+                }
+
+                .jss55 {
+                    padding: 64px 16px;
+                    background-color: #616161;
+                }
+
+                .jss56 {
+                    width: 100%;
+                    margin: 16px;
+                    max-width: 110px;
+                }
+
+                .jss57 {
+                    padding: 8px;
+                }
+
+                .jss58 {
+                    margin: 8px 16px;
+                }
+
+                @keyframes jss59 {
+                    100% {
+                        transform: rotate(3deg);
+                    }
+                }
+
+                .jss60 {
+                    animation: jss59 1s linear infinite;
+                }
+            </style>
+            <div class="MuiGrid-root MuiGrid-container">
+                <div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-12">
+                    <div class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center">
+                        <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-xs-center MuiGrid-grid-xs-12 MuiGrid-grid-md-10 MuiGrid-grid-lg-8 MuiGrid-grid-xl-6">
+                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                                <div class="MuiBox-root jss43 jss32">
+                                    <div class="MuiBox-root jss44 jss33">
+                                        <div class="MuiBox-root jss45 jss34 jss35"></div>
+                                        <div class="MuiBox-root jss46 jss34 jss36"></div>
+                                        <div class="MuiBox-root jss47 jss34 jss37"></div>
+                                    </div>
+                                    <div class="MuiBox-root jss48 jss38">
+                                        <div class="MuiBox-root jss78" style="display: block">
+                                            <p class="MuiTypography-root jss41 MuiTypography-body1">
+                                                $ ./chad-lefort.sh
+                                            </p>
+                                            <p class="MuiTypography-root MuiTypography-body1">
+                                                &gt; Hello, I'm Chad, a frontend engineer from Covington,
+                                                Louisiana.
+                                            </p>
+                                            <p class="MuiTypography-root MuiTypography-body1">
+                                                &gt; I’ve always had a strong passion for the web. Shortly
+                                                after I was given my first computer, I grew interested in
+                                                web development.
+                                            </p>
+                                            <p class="MuiTypography-root MuiTypography-body1">
+                                                &gt; I'm constantly furthering my skills to keep up with
+                                                the ever changing demand the web has.
+                                            </p>
+                                            <p class="MuiTypography-root MuiTypography-body1">
+                                                &gt; I've always enjoyed the feeling of accomplishment
+                                                when programming, and I take pride in writing clean,
+                                                maintainable, and efficient code.
+                                            </p>
+                                            <p class="MuiTypography-root MuiTypography-body1">
+                                                $ <span class="jss39">!</span><span class="jss60"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </foreignObject>
+    </foreignObject>
 </svg>
