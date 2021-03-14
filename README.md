@@ -1,16 +1,18 @@
-### Hi there 👋
+<div align="center">
+    <img src="console.svg" width="100%" height="412">
+</div>
 
-<!--
-**ChadLefort/ChadLefort** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <a href="mailto:chadlefort@gmail.com" alt="Email">
+    <img
+      src="https://img.shields.io/badge/-chadlefort@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:chadlefort@gmail.com" />
+  </a>
+  <a href="https://www.linkedin.com/in/chadlefort" alt="Email">
+    <img
+      src="https://img.shields.io/badge/-Chad_Lefort-blue?style=flat&logo=Linkedin&link=https://www.linkedin.com/in/chadlefort" />
+  </a>
+  <a href="https://twitter.com/ChadLefort" alt="Twitter">
+    <img
+      src="https://img.shields.io/badge/-@ChadLefort-1ca0f1?style=flat&logo=twitter&logoColor=white&link=https://twitter.com/ChadLefort" />
+  </a>
+</p>
