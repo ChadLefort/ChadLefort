@@ -1,6 +1,6 @@
 <div>
     <a href="https://chadlefort.com" alt="Website">
-        <img src="console.svg" width="100%" height="420" style="background-color:white">
+        <img src="console.svg" width="100%" height="600">
     </a>
 </div>
 
@@ -17,4 +17,9 @@
     <img
       src="https://img.shields.io/badge/-@ChadLefort-1ca0f1?style=flat&logo=twitter&logoColor=white&link=https://twitter.com/ChadLefort" />
   </a>
+</p>
+<p align="center">
+  <img src="https://badges.pufler.dev/visits/ChadLefort/ChadLefort" />
+  <img src="https://badges.pufler.dev/repos/ChadLefort" />
+  <img src="https://badges.pufler.dev/commits/yearly/ChadLefort" />
 </p>

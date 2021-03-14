@@ -7,26 +7,12 @@
                     align-items: center;
                 }
 
-                .jss21 {
-                    display: flex;
-                    align-items: center;
-                }
-
-                .jss22 {
-                    display: flex;
-                    align-items: center;
-                }
-
-                .jss23 {
-                    display: flex;
-                    align-items: center;
-                }
-
                 .MuiGrid-container {
                     width: 100%;
                     display: flex;
                     flex-wrap: wrap;
                     box-sizing: border-box;
+                    min-height: 600px;
                 }
 
                 .MuiGrid-item {
@@ -455,7 +441,6 @@
 
                 .jss32 {
                     width: 100%;
-                    padding: 16px 0;
                 }
 
                 .jss33 {
@@ -489,7 +474,7 @@
 
                 .jss38 {
                     padding: 8px;
-                    min-height: 350px;
+                    min-height: 450px;
                     border-radius: 0 0 8px 8px;
                     background-color: #303030;
                 }
@@ -691,7 +676,7 @@
                     <div class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center">
                         <div
                             class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-xs-center MuiGrid-grid-xs-12 MuiGrid-grid-md-10 MuiGrid-grid-lg-8 MuiGrid-grid-xl-6">
-                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
+                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 jss20">
                                 <div class="MuiBox-root jss43 jss32">
                                     <div class="MuiBox-root jss44 jss33">
                                         <div class="MuiBox-root jss45 jss34 jss35"></div>
