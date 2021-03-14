@@ -1,6 +1,6 @@
 <div>
     <a href="https://chadlefort.com" alt="Website">
-        <img src="console.svg" width="100%" height="600">
+        <img src="terminal.svg" width="100%" height="600">
     </a>
 </div>
 
