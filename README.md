@@ -1,5 +1,7 @@
 <div align="center">
-    <img src="console.svg" width="100%" height="412">
+    <a href="https://chadlefort.com" alt="Website">
+        <img src="console.svg" width="100%" height="412">
+    </a>
 </div>
 
 <p align="center">
