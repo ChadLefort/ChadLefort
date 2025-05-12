@@ -3,14 +3,3 @@
       <img src="terminal.svg">
   </a>
 </p>
-
-<p align="center">
-  <a href="mailto:chadlefort@gmail.com" alt="Email">
-    <img
-      src="https://img.shields.io/badge/-chadlefort@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:chadlefort@gmail.com" />
-  </a>
-  <a href="https://www.linkedin.com/in/chadlefort" alt="Email">
-    <img
-      src="https://img.shields.io/badge/-Chad_Lefort-blue?style=flat&logo=Linkedin&link=https://www.linkedin.com/in/chadlefort" />
-  </a>
-</p>
