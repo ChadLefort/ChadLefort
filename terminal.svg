@@ -1,719 +1,136 @@
-<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 530" style="width: 100%; height: auto;">
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-                .jss20 {
-                    display: flex;
-                    align-items: center;
-                }
-
-                .MuiGrid-container {
-                    width: 100%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    box-sizing: border-box;
-                    min-height: 530px;
-                }
-
-                .MuiGrid-item {
-                    margin: 0;
-                    box-sizing: border-box;
-                }
-
-                .MuiGrid-justify-xs-center {
-                    justify-content: center;
-                }
-
-                .MuiGrid-grid-xs-1 {
-                    flex-grow: 0;
-                    max-width: 8.333333%;
-                    flex-basis: 8.333333%;
-                }
-
-                .MuiGrid-grid-xs-2 {
-                    flex-grow: 0;
-                    max-width: 16.666667%;
-                    flex-basis: 16.666667%;
-                }
-
-                .MuiGrid-grid-xs-3 {
-                    flex-grow: 0;
-                    max-width: 25%;
-                    flex-basis: 25%;
-                }
-
-                .MuiGrid-grid-xs-4 {
-                    flex-grow: 0;
-                    max-width: 33.333333%;
-                    flex-basis: 33.333333%;
-                }
-
-                .MuiGrid-grid-xs-5 {
-                    flex-grow: 0;
-                    max-width: 41.666667%;
-                    flex-basis: 41.666667%;
-                }
-
-                .MuiGrid-grid-xs-6 {
-                    flex-grow: 0;
-                    max-width: 50%;
-                    flex-basis: 50%;
-                }
-
-                .MuiGrid-grid-xs-7 {
-                    flex-grow: 0;
-                    max-width: 58.333333%;
-                    flex-basis: 58.333333%;
-                }
-
-                .MuiGrid-grid-xs-8 {
-                    flex-grow: 0;
-                    max-width: 66.666667%;
-                    flex-basis: 66.666667%;
-                }
-
-                .MuiGrid-grid-xs-9 {
-                    flex-grow: 0;
-                    max-width: 75%;
-                    flex-basis: 75%;
-                }
-
-                .MuiGrid-grid-xs-10 {
-                    flex-grow: 0;
-                    max-width: 83.333333%;
-                    flex-basis: 83.333333%;
-                }
-
-                .MuiGrid-grid-xs-11 {
-                    flex-grow: 0;
-                    max-width: 91.666667%;
-                    flex-basis: 91.666667%;
-                }
-
-                .MuiGrid-grid-xs-12 {
-                    flex-grow: 0;
-                    max-width: 100%;
-                    flex-basis: 100%;
-                }
-
-                @media (min-width: 1280px) {
-                    .MuiGrid-grid-md-1 {
-                        flex-grow: 0;
-                        max-width: 8.333333%;
-                        flex-basis: 8.333333%;
-                    }
-
-                    .MuiGrid-grid-md-2 {
-                        flex-grow: 0;
-                        max-width: 16.666667%;
-                        flex-basis: 16.666667%;
-                    }
-
-                    .MuiGrid-grid-md-3 {
-                        flex-grow: 0;
-                        max-width: 25%;
-                        flex-basis: 25%;
-                    }
-
-                    .MuiGrid-grid-md-4 {
-                        flex-grow: 0;
-                        max-width: 33.333333%;
-                        flex-basis: 33.333333%;
-                    }
-
-                    .MuiGrid-grid-md-5 {
-                        flex-grow: 0;
-                        max-width: 41.666667%;
-                        flex-basis: 41.666667%;
-                    }
-
-                    .MuiGrid-grid-md-6 {
-                        flex-grow: 0;
-                        max-width: 50%;
-                        flex-basis: 50%;
-                    }
-
-                    .MuiGrid-grid-md-7 {
-                        flex-grow: 0;
-                        max-width: 58.333333%;
-                        flex-basis: 58.333333%;
-                    }
-
-                    .MuiGrid-grid-md-8 {
-                        flex-grow: 0;
-                        max-width: 66.666667%;
-                        flex-basis: 66.666667%;
-                    }
-
-                    .MuiGrid-grid-md-9 {
-                        flex-grow: 0;
-                        max-width: 75%;
-                        flex-basis: 75%;
-                    }
-
-                    .MuiGrid-grid-md-10 {
-                        flex-grow: 0;
-                        max-width: 83.333333%;
-                        flex-basis: 83.333333%;
-                    }
-
-                    .MuiGrid-grid-md-11 {
-                        flex-grow: 0;
-                        max-width: 91.666667%;
-                        flex-basis: 91.666667%;
-                    }
-
-                    .MuiGrid-grid-md-12 {
-                        flex-grow: 0;
-                        max-width: 100%;
-                        flex-basis: 100%;
-                    }
-                }
-
-                @media (min-width: 1920px) {
-                    .MuiGrid-grid-lg-1 {
-                        flex-grow: 0;
-                        max-width: 8.333333%;
-                        flex-basis: 8.333333%;
-                    }
-
-                    .MuiGrid-grid-lg-2 {
-                        flex-grow: 0;
-                        max-width: 16.666667%;
-                        flex-basis: 16.666667%;
-                    }
-
-                    .MuiGrid-grid-lg-3 {
-                        flex-grow: 0;
-                        max-width: 25%;
-                        flex-basis: 25%;
-                    }
-
-                    .MuiGrid-grid-lg-4 {
-                        flex-grow: 0;
-                        max-width: 33.333333%;
-                        flex-basis: 33.333333%;
-                    }
-
-                    .MuiGrid-grid-lg-5 {
-                        flex-grow: 0;
-                        max-width: 41.666667%;
-                        flex-basis: 41.666667%;
-                    }
-
-                    .MuiGrid-grid-lg-6 {
-                        flex-grow: 0;
-                        max-width: 50%;
-                        flex-basis: 50%;
-                    }
-
-                    .MuiGrid-grid-lg-7 {
-                        flex-grow: 0;
-                        max-width: 58.333333%;
-                        flex-basis: 58.333333%;
-                    }
-
-                    .MuiGrid-grid-lg-8 {
-                        flex-grow: 0;
-                        max-width: 66.666667%;
-                        flex-basis: 66.666667%;
-                    }
-
-                    .MuiGrid-grid-lg-9 {
-                        flex-grow: 0;
-                        max-width: 75%;
-                        flex-basis: 75%;
-                    }
-
-                    .MuiGrid-grid-lg-10 {
-                        flex-grow: 0;
-                        max-width: 83.333333%;
-                        flex-basis: 83.333333%;
-                    }
-
-                    .MuiGrid-grid-lg-11 {
-                        flex-grow: 0;
-                        max-width: 91.666667%;
-                        flex-basis: 91.666667%;
-                    }
-
-                    .MuiGrid-grid-lg-12 {
-                        flex-grow: 0;
-                        max-width: 100%;
-                        flex-basis: 100%;
-                    }
-                }
-
-                @media (min-width: 2560px) {
-                    .MuiGrid-grid-xl-1 {
-                        flex-grow: 0;
-                        max-width: 8.333333%;
-                        flex-basis: 8.333333%;
-                    }
-
-                    .MuiGrid-grid-xl-2 {
-                        flex-grow: 0;
-                        max-width: 16.666667%;
-                        flex-basis: 16.666667%;
-                    }
-
-                    .MuiGrid-grid-xl-3 {
-                        flex-grow: 0;
-                        max-width: 25%;
-                        flex-basis: 25%;
-                    }
-
-                    .MuiGrid-grid-xl-4 {
-                        flex-grow: 0;
-                        max-width: 33.333333%;
-                        flex-basis: 33.333333%;
-                    }
-
-                    .MuiGrid-grid-xl-5 {
-                        flex-grow: 0;
-                        max-width: 41.666667%;
-                        flex-basis: 41.666667%;
-                    }
-
-                    .MuiGrid-grid-xl-6 {
-                        flex-grow: 0;
-                        max-width: 50%;
-                        flex-basis: 50%;
-                    }
-
-                    .MuiGrid-grid-xl-7 {
-                        flex-grow: 0;
-                        max-width: 58.333333%;
-                        flex-basis: 58.333333%;
-                    }
-
-                    .MuiGrid-grid-xl-8 {
-                        flex-grow: 0;
-                        max-width: 66.666667%;
-                        flex-basis: 66.666667%;
-                    }
-
-                    .MuiGrid-grid-xl-9 {
-                        flex-grow: 0;
-                        max-width: 75%;
-                        flex-basis: 75%;
-                    }
-
-                    .MuiGrid-grid-xl-10 {
-                        flex-grow: 0;
-                        max-width: 83.333333%;
-                        flex-basis: 83.333333%;
-                    }
-
-                    .MuiGrid-grid-xl-11 {
-                        flex-grow: 0;
-                        max-width: 91.666667%;
-                        flex-basis: 91.666667%;
-                    }
-
-                    .MuiGrid-grid-xl-12 {
-                        flex-grow: 0;
-                        max-width: 100%;
-                        flex-basis: 100%;
-                    }
-                }
-
-                .MuiTypography-root {
-                    margin: 0;
-                }
-
-                *,
-                ::after,
-                ::before {
-                    box-sizing: inherit;
-                }
-
-                strong {
-                    font-weight: 700;
-                }
-
-                body::-webkit-backdrop {
-                    background-color: #303030;
-                }
-
-                body::backdrop {
-                    background-color: #303030;
-                }
-
-                .jss72 {
-                    padding: 64px 16px;
-                    background-color: #616161;
-                }
-
-                @media (max-width: 1279.95px) {
-                    .jss72 {
-                        padding: 32px;
-                    }
-                }
-
-                .jss73 {
-                    width: 100%;
-                    height: 100%;
-                }
-
-                @media (max-width: 1279.95px) {
-                    .jss73 {
-                        width: 240px;
-                        height: 240px;
-                    }
-                }
-
-                .jss74 {
-                    padding: 0 32px 0 0;
-                }
-
-                @media (max-width: 1279.95px) {
-                    .jss74 {
-                        display: flex;
-                        padding: 16px 32px;
-                        justify-content: center;
-                    }
-                }
-
-                .jss75 {
-                    padding: 64px 16px;
-                }
-
-                @media (max-width: 1279.95px) {
-                    .jss75 {
-                        padding: 32px;
-                    }
-                }
-
-                .jss76 {
-                    margin: 0 8px;
-                }
-
-                @media (max-width: 599.95px) {
-                    .jss76 {
-                        margin: 0 4px;
-                    }
-                }
-
-                .jss77 {
-                    font-size: 1.7rem;
-                }
-
-                .jss54 {
-                    padding: 4px;
-                }
-
-                .jss67 {
-                    padding: 64px 16px;
-                }
-
-                @media (max-width: 1279.95px) {
-                    .jss67 {
-                        padding: 32px;
-                    }
-                }
-
-                .jss68 {
-                    margin: 16px 8px;
-                }
-
-                .jss69 {
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-end;
-                }
-
-                @media (max-width: 1279.95px) {
-                    .jss69 {
-                        padding: 16px 0;
-                        justify-content: center;
-                    }
-                }
-
-                .jss70 {
-                    width: 100%;
-                    max-width: 110px;
-                }
-
-                .jss71 {
-                    margin-top: 16px;
-                }
-
-                .jss32 {
-                    width: 100%;
-                }
-
-                .jss33 {
-                    height: 30px;
-                    display: flex;
-                    padding: 8px;
-                    align-items: center;
-                    border-radius: 8px 8px 0 0;
-                    justify-content: flex-end;
-                    background-color: #212121;
-                }
-
-                .jss34 {
-                    width: 15px;
-                    height: 15px;
-                    margin: 8px;
-                    border-radius: 50%;
-                }
-
-                .jss35 {
-                    background-color: #ff9800;
-                }
-
-                .jss36 {
-                    background-color: #4caf50;
-                }
-
-                .jss37 {
-                    background-color: #f44336;
-                }
-
-                .jss38 {
-                    padding: 8px;
-                    min-height: 500px;
-                    border-radius: 0 0 8px 8px;
-                    background-color: #303030;
-                }
-
-                .jss38 p {
-                    color: #fff;
-                    margin: 16px;
-                    font-size: 1rem;
-                    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Monospace;
-                }
-
-                @media (max-width: 599.95px) {
-                    .jss38 p {
-                        font-size: 0.9rem;
-                    }
-                }
-
-                .jss39 {
-                    animation: jss40 1s linear infinite;
-                    background-color: #fff;
-                }
-
-                @keyframes jss40 {
-                    0% {
-                        opacity: 0;
-                    }
-
-                    40% {
-                        opacity: 0;
-                    }
-
-                    50% {
-                        opacity: 1;
-                    }
-
-                    90% {
-                        opacity: 1;
-                    }
-
-                    100% {
-                        opacity: 0;
-                    }
-                }
-
-                .jss41 {
-                    display: flex;
-                }
-
-                .jss42 {
-                    margin-left: 9px;
-                }
-
-                .jss25 {
-                    width: 200px;
-                    height: 200px;
-                }
-
-                .jss26 {
-                    padding: 16px 0;
-                }
-
-                .jss27 {
-                    padding: 16px;
-                }
-
-                .jss28 {
-                    height: 100%;
-                    display: flex;
-                    padding: 16px 0;
-                    align-items: center;
-                    justify-content: center;
-                }
-
-                .jss29 {
-                    margin: 16px 8px;
-                    padding: 16px 32px;
-                }
-
-                .jss31 {
-                    padding: 0 32px;
-                }
-
-                .jss49 {
-                    padding: 64px 16px;
-                }
-
-                .jss50 {
-                    padding: 16px;
-                    background-color: #616161;
-                }
-
-                .jss51 {
-                    padding: 6px 16px;
-                    overflow: hidden;
-                }
-
-                .jss52 {
-                    box-shadow: none;
-                    border-width: 4px;
-                }
-
-                .jss53 {
-                    display: block;
-                }
-
-                .jss1 {
-                    min-height: 56px;
-                }
-
-                .jss4 {
-                    width: 250px;
-                }
-
-                .jss5 {
-                    font-weight: 600;
-                }
-
-                .jss6 {
-                    cursor: pointer;
-                    margin: 0 16px;
-                    font-weight: 600;
-                }
-
-                .jss7 {
-                    margin-left: 51.19px;
-                }
-
-                .jss8 {
-                    right: 30px;
-                    bottom: 30px;
-                    position: fixed;
-                    font-size: 1.875rem;
-                    box-shadow: none;
-                }
-
-                .jss9 {
-                    font-size: 1.7rem;
-                }
-
-                .jss10 {
-                    right: 0;
-                    bottom: 0;
-                    padding: 8px;
-                    position: fixed;
-                }
-
-                .jss13 {
-                    display: none;
-                }
-
-                .jss14 {
-                    width: 80px;
-                    height: 80px;
-                }
-
-                .jss15 {
-                    padding-right: 12px;
-                }
-
-                .jss16 {
-                    margin: 0 8px;
-                }
-
-                .jss17 {
-                    padding-top: 28px;
-                }
-
-                .jss55 {
-                    padding: 64px 16px;
-                    background-color: #616161;
-                }
-
-                .jss56 {
-                    width: 100%;
-                    margin: 16px;
-                    max-width: 110px;
-                }
-
-                .jss57 {
-                    padding: 8px;
-                }
-
-                .jss58 {
-                    margin: 8px 16px;
-                }
-
-                @keyframes jss59 {
-                    100% {
-                        transform: rotate(3deg);
-                    }
-                }
-
-                .jss60 {
-                    animation: jss59 1s linear infinite;
-                }
-            </style>
-            <div class="MuiGrid-root MuiGrid-container">
-                <div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-12">
-                    <div class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center">
-                        <div
-                            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-xs-center MuiGrid-grid-xs-12 MuiGrid-grid-md-10 MuiGrid-grid-lg-8 MuiGrid-grid-xl-6">
-                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 jss20">
-                                <div class="MuiBox-root jss43 jss32">
-                                    <div class="MuiBox-root jss44 jss33">
-                                        <div class="MuiBox-root jss45 jss34 jss35"></div>
-                                        <div class="MuiBox-root jss46 jss34 jss36"></div>
-                                        <div class="MuiBox-root jss47 jss34 jss37"></div>
-                                    </div>
-                                    <div class="MuiBox-root jss48 jss38">
-                                        <div class="MuiBox-root jss78" style="display: block">
-                                            <p class="MuiTypography-root jss41 MuiTypography-body1">
-                                                $ ./chad-lefort.sh
-                                            </p>
-                                            <p id="intro-text" class="MuiTypography-root MuiTypography-body1">
-                                                &gt; Hello, I'm Chad, a senior frontend engineer from Mandeville, Louisiana with 11+ years of development experience.
-                                            </p>
-                                            <p class="MuiTypography-root MuiTypography-body1">
-                                                &gt; Shortly after I was given my first computer, I developed a strong passion for programming.
-                                            </p>
-                                            <p class="MuiTypography-root MuiTypography-body1">
-                                                &gt; I'm constantly furthering my skills to keep up with the ever changing demand the web has.
-                                            </p>
-                                            <p class="MuiTypography-root MuiTypography-body1">
-                                                &gt; I enjoy the feeling of accomplishment when programming, and I take pride in writing maintainable and efficient code.
-                                            </p>
-                                            <p class="MuiTypography-root MuiTypography-body1">
-                                                &gt; Committed to team success, I prioritize delivering exceptional products that provide an outstanding user experience.
-                                            </p>
-                                            <p class="MuiTypography-root MuiTypography-body1">
-                                                $ <span class="jss39">!</span><span class="jss60"></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </foreignObject>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680" role="img" aria-label="Chad Lefort terminal">
+  <title>Chad Lefort — Senior Frontend Engineer</title>
+  <defs>
+    <style>
+      .outer { fill: #21252b; }
+      .menu { fill: #1a1d23; }
+      .tab-active { fill: #4ec9b0; }
+      .tab-text-active { fill: #0d1117; }
+      .tab-inactive { fill: #21252b; }
+      .tab-text-inactive { fill: #cccccc; opacity: 0.8; }
+      .status { fill: #3a3e48; }
+      .term { fill: #282c34; }
+      .fg { fill: #cccccc; }
+      .comment { fill: #9da5b4; }
+      .prompt { fill: #4ec9b0; }
+      .branch { fill: #dcdcaa; }
+      .add { fill: #4ec9b0; }
+      .del { fill: #f44748; }
+      .info { fill: #93c5fd; }
+      .sep { fill: #626977; }
+      .mac-red { fill: #ff5f57; }
+      .mac-yellow { fill: #febc2e; }
+      .mac-green { fill: #28c840; }
+      .mono {
+        font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", monospace;
+        font-size: 15px;
+      }
+      .mono-status { font-size: 13px; }
+      .mono-tab { font-size: 13px; font-weight: 600; }
+      .bold { font-weight: 700; }
+      .cursor { fill: #cccccc; animation: blink 1s linear infinite; }
+      @keyframes blink {
+        0%, 40% { opacity: 0; }
+        50%, 90% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+    </style>
+    <clipPath id="clip">
+      <rect x="0" y="0" width="1200" height="680" rx="16" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect class="outer" width="1200" height="680" />
+
+    <!-- menu bar with traffic lights + tabs -->
+    <rect class="menu" x="0" y="0" width="1200" height="54" />
+    <circle class="mac-red" cx="28" cy="27" r="7" />
+    <circle class="mac-yellow" cx="52" cy="27" r="7" />
+    <circle class="mac-green" cx="76" cy="27" r="7" />
+
+    <!-- active tab -->
+    <path class="tab-active" d="M110,54 L110,22 Q110,14 118,14 L320,14 Q328,14 328,22 L328,54 Z" />
+    <text class="mono mono-tab tab-text-active" x="146" y="38">chadlefort.com</text>
+
+    <!-- inactive tabs -->
+    <path class="tab-inactive" d="M340,54 L340,24 Q340,18 346,18 L498,18 Q504,18 504,24 L504,54 Z" />
+    <text class="mono mono-tab tab-text-inactive" x="356" y="40">1  nvim</text>
+
+    <path class="tab-inactive" d="M516,54 L516,24 Q516,18 522,18 L700,18 Q706,18 706,24 L706,54 Z" />
+    <text class="mono mono-tab tab-text-inactive" x="532" y="40">2  ~/dotfiles</text>
+
+    <path class="tab-inactive" d="M718,54 L718,24 Q718,18 724,18 L900,18 Q906,18 906,24 L906,54 Z" />
+    <text class="mono mono-tab tab-text-inactive" x="734" y="40">3  ~/projects</text>
+
+    <!-- status bar -->
+    <rect class="term" x="0" y="54" width="1200" height="52" />
+    <rect class="status" x="24" y="66" width="1080" height="28" rx="14" />
+    <g class="mono mono-status">
+      <text class="fg" x="48" y="85">clefort</text>
+      <text class="sep" x="120" y="85">❯</text>
+      <text class="fg" x="140" y="85">~/development/chadlefort.com</text>
+      <text class="sep" x="394" y="85">❯</text>
+      <text class="branch" x="414" y="85">⎇ v2</text>
+      <text class="sep" x="470" y="85">❯</text>
+      <text class="add" x="490" y="85">+ 13</text>
+      <text class="sep" x="536" y="85">❯</text>
+      <text class="del" x="556" y="85">- 0</text>
+    </g>
+
+    <!-- terminal body -->
+    <rect class="term" x="0" y="106" width="1200" height="574" />
+
+    <g class="mono">
+      <!-- prompt typed command -->
+      <text x="32" y="144">
+        <tspan class="prompt">→</tspan>
+        <tspan class="fg" dx="8">cat ABOUT.md</tspan>
+      </text>
+
+      <!-- h1 -->
+      <text x="32" y="186" class="bold">
+        <tspan class="prompt"># </tspan>
+        <tspan class="fg">Chad Lefort</tspan>
+      </text>
+
+      <!-- summary paragraph -->
+      <text class="comment" x="32" y="222">Senior frontend engineer from Mandeville, Louisiana with 13+ years of experience.</text>
+
+      <!-- h2 -->
+      <text x="32" y="266" class="bold">
+        <tspan class="prompt">## </tspan>
+        <tspan class="fg">About</tspan>
+      </text>
+
+      <!-- blockquotes -->
+      <text x="32" y="304">
+        <tspan class="prompt">&gt; </tspan>
+        <tspan class="comment">Shortly after I was given my first computer, I developed a strong passion for programming.</tspan>
+      </text>
+
+      <text x="32" y="344">
+        <tspan class="prompt">&gt; </tspan>
+        <tspan class="comment">I'm constantly furthering my skills to keep up with the ever changing demand the web has.</tspan>
+      </text>
+
+      <text x="32" y="384">
+        <tspan class="prompt">&gt; </tspan>
+        <tspan class="comment">I enjoy the feeling of accomplishment when programming, and I take pride in writing</tspan>
+      </text>
+      <text class="comment" x="32" y="410">maintainable and efficient code.</text>
+
+      <text x="32" y="450">
+        <tspan class="prompt">&gt; </tspan>
+        <tspan class="comment">Committed to team success, I prioritize delivering exceptional products that provide</tspan>
+      </text>
+      <text class="comment" x="32" y="476">an outstanding user experience.</text>
+
+      <!-- trailing prompt + cursor -->
+      <text x="32" y="520">
+        <tspan class="prompt">→</tspan>
+      </text>
+      <rect class="cursor" x="52" y="506" width="9" height="18" />
+    </g>
+  </g>
 </svg>

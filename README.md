@@ -1,3 +1,1 @@
-<a href="https://chadlefort.com" alt="Website">
-    <img src="terminal.svg">
-</a>
+<img src="terminal.svg" alt="Chad Lefort — Senior Frontend Engineer" />
