@@ -23,10 +23,10 @@
       .mac-green { fill: #28c840; }
       .mono {
         font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", monospace;
-        font-size: 15px;
+        font-size: 17px;
       }
-      .mono-status { font-size: 13px; }
-      .mono-tab { font-size: 13px; font-weight: 600; }
+      .mono-status { font-size: 15px; }
+      .mono-tab { font-size: 15px; font-weight: 600; }
       .bold { font-weight: 700; }
       .cursor { fill: #cccccc; animation: blink 1s linear infinite; }
       @keyframes blink {
