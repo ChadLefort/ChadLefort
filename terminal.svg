@@ -64,22 +64,22 @@
     <text class="mono mono-tab tab-text-inactive" x="734" y="40">3  ~/projects</text>
 
     <!-- status bar -->
-    <rect class="term" x="0" y="54" width="1200" height="52" />
-    <rect class="status" x="24" y="66" width="1080" height="28" rx="14" />
+    <rect class="term" x="0" y="54" width="1200" height="56" />
+    <rect class="status" x="24" y="78" width="1080" height="28" rx="14" />
     <g class="mono mono-status">
-      <text class="fg" x="48" y="86">clefort</text>
-      <text class="sep" x="128" y="86">❯</text>
-      <text class="fg" x="148" y="86">~/development/chadlefort.com</text>
-      <text class="sep" x="412" y="86">❯</text>
-      <text class="branch" x="432" y="86">⎇ v2</text>
-      <text class="sep" x="502" y="86">❯</text>
-      <text class="add" x="522" y="86">+ 13</text>
-      <text class="sep" x="574" y="86">❯</text>
-      <text class="del" x="594" y="86">- 0</text>
+      <text class="fg" x="48" y="98">clefort</text>
+      <text class="sep" x="128" y="98">❯</text>
+      <text class="fg" x="148" y="98">~/development/chadlefort.com</text>
+      <text class="sep" x="412" y="98">❯</text>
+      <text class="branch" x="432" y="98">⎇ v2</text>
+      <text class="sep" x="502" y="98">❯</text>
+      <text class="add" x="522" y="98">+ 13</text>
+      <text class="sep" x="574" y="98">❯</text>
+      <text class="del" x="594" y="98">- 0</text>
     </g>
 
     <!-- terminal body -->
-    <rect class="term" x="0" y="106" width="1200" height="574" />
+    <rect class="term" x="0" y="110" width="1200" height="570" />
 
     <g class="mono">
       <!-- prompt typed command -->
