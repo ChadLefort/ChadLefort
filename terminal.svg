@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" role="img" aria-label="Chad Lefort terminal">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img" aria-label="Chad Lefort terminal">
   <title>Chad Lefort — Senior Frontend Engineer</title>
   <defs>
     <style>
@@ -38,184 +38,187 @@
       }
     </style>
     <clipPath id="clip">
-      <rect x="0" y="0" width="1200" height="720" rx="16" />
+      <rect x="0" y="0" width="1200" height="760" rx="16" />
     </clipPath>
   </defs>
 
   <g clip-path="url(#clip)">
-    <rect class="outer" width="1200" height="720" />
+    <rect class="outer" width="1200" height="760" />
 
-    <!-- menu bar with traffic lights + tabs -->
-    <rect class="menu" x="0" y="0" width="1200" height="54" />
-    <circle class="mac-red" cx="28" cy="27" r="7" />
-    <circle class="mac-yellow" cx="52" cy="27" r="7" />
-    <circle class="mac-green" cx="76" cy="27" r="7" />
+    <!-- titlebar with traffic lights only -->
+    <rect class="menu" x="0" y="0" width="1200" height="44" />
+    <circle class="mac-red" cx="28" cy="22" r="7" />
+    <circle class="mac-yellow" cx="52" cy="22" r="7" />
+    <circle class="mac-green" cx="76" cy="22" r="7" />
+
+    <!-- tabs row -->
+    <rect class="menu" x="0" y="44" width="1200" height="50" />
 
     <!-- session tab: tmux + chadlefort.com -->
-    <path class="tab-session" d="M110,54 L110,22 Q110,14 118,14 L320,14 Q328,14 328,22 L328,54 Z" />
-    <g transform="translate(126 27) scale(0.5833)" fill="#0d1117" fill-rule="evenodd">
+    <path class="tab-session" d="M110,94 L110,62 Q110,54 118,54 L320,54 Q328,54 328,62 L328,94 Z" />
+    <g transform="translate(126 67) scale(0.5833)" fill="#0d1117" fill-rule="evenodd">
       <path d="M24 2.251V10.5H12.45V0h9.3A2.25 2.25 0 0 1 24 2.251M12.45 11.4H24v10.5h-.008A2.25 2.25 0 0 1 21.75 24H2.25a2.247 2.247 0 0 1-2.242-2.1H0V2.251A2.25 2.25 0 0 1 2.25 0h9.3v21.6h.9zm11.242 10.5H.308a1.95 1.95 0 0 0 1.942 1.8h19.5a1.95 1.95 0 0 0 1.942-1.8"/>
     </g>
-    <text class="mono mono-tab tab-text-session" x="152" y="38">chadlefort.com</text>
+    <text class="mono mono-tab tab-text-session" x="152" y="78">chadlefort.com</text>
 
     <!-- active tab: zsh -->
-    <path class="tab-active" d="M340,54 L340,22 Q340,14 348,14 L482,14 Q490,14 490,22 L490,54 Z" />
-    <text class="mono mono-tab tab-text-active" x="356" y="38">1</text>
-    <g transform="translate(380 27) scale(0.5833)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path class="tab-active" d="M340,94 L340,62 Q340,54 348,54 L482,54 Q490,54 490,62 L490,94 Z" />
+    <text class="mono mono-tab tab-text-active" x="356" y="78">1</text>
+    <g transform="translate(380 67) scale(0.5833)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <polyline points="4 17 10 11 4 5"/>
       <line x1="12" x2="20" y1="19" y2="19"/>
     </g>
-    <text class="mono mono-tab tab-text-active" x="406" y="38">zsh</text>
+    <text class="mono mono-tab tab-text-active" x="406" y="78">zsh</text>
 
     <!-- inactive tab: nvim -->
-    <path class="tab-inactive" d="M502,54 L502,24 Q502,18 508,18 L660,18 Q666,18 666,24 L666,54 Z" />
-    <text class="mono mono-tab tab-text-inactive" x="518" y="40">2</text>
-    <g transform="translate(542 27) scale(0.5833)" fill="#cccccc" opacity="0.8">
+    <path class="tab-inactive" d="M502,94 L502,62 Q502,54 510,54 L658,54 Q666,54 666,62 L666,94 Z" />
+    <text class="mono mono-tab tab-text-inactive" x="518" y="78">2</text>
+    <g transform="translate(542 67) scale(0.5833)" fill="#cccccc" opacity="0.8">
       <path d="M2.214 4.954v13.615L7.655 24V10.314L3.312 3.845zm4.999 17.98l-4.557-4.548V5.136l.59-.596l3.967 5.908v12.485zm14.573-4.457l-.862.937l-4.24-6.376V0l5.068 5.092zM7.431.001l12.998 19.835l-3.637 3.637L3.787 3.683L7.43 0z"/>
     </g>
-    <text class="mono mono-tab tab-text-inactive" x="568" y="40">nvim</text>
+    <text class="mono mono-tab tab-text-inactive" x="568" y="78">nvim</text>
 
     <!-- inactive tab: ~/dotfiles -->
-    <path class="tab-inactive" d="M678,54 L678,24 Q678,18 684,18 L862,18 Q868,18 868,24 L868,54 Z" />
-    <text class="mono mono-tab tab-text-inactive" x="694" y="40">3</text>
-    <g transform="translate(718 27) scale(0.5833)" fill="none" stroke="#cccccc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+    <path class="tab-inactive" d="M678,94 L678,62 Q678,54 686,54 L860,54 Q868,54 868,62 L868,94 Z" />
+    <text class="mono mono-tab tab-text-inactive" x="694" y="78">3</text>
+    <g transform="translate(718 67) scale(0.5833)" fill="none" stroke="#cccccc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
       <path d="M18 19a5 5 0 0 1-5-5v8"/>
       <path d="M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v5"/>
       <circle cx="13" cy="12" r="2"/>
       <circle cx="20" cy="19" r="2"/>
     </g>
-    <text class="mono mono-tab tab-text-inactive" x="744" y="40">~/dotfiles</text>
+    <text class="mono mono-tab tab-text-inactive" x="744" y="78">~/dotfiles</text>
 
     <!-- inactive tab: ~/projects -->
-    <path class="tab-inactive" d="M880,54 L880,24 Q880,18 886,18 L1062,18 Q1068,18 1068,24 L1068,54 Z" />
-    <text class="mono mono-tab tab-text-inactive" x="896" y="40">4</text>
-    <g transform="translate(920 27) scale(0.5833)" fill="none" stroke="#cccccc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+    <path class="tab-inactive" d="M880,94 L880,62 Q880,54 888,54 L1060,54 Q1068,54 1068,62 L1068,94 Z" />
+    <text class="mono mono-tab tab-text-inactive" x="896" y="78">4</text>
+    <g transform="translate(920 67) scale(0.5833)" fill="none" stroke="#cccccc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
       <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/>
     </g>
-    <text class="mono mono-tab tab-text-inactive" x="946" y="40">~/projects</text>
+    <text class="mono mono-tab tab-text-inactive" x="946" y="78">~/projects</text>
 
     <!-- top status bar -->
-    <rect class="term" x="0" y="54" width="1200" height="56" />
-    <rect class="status" x="24" y="78" width="1080" height="28" rx="14" />
+    <rect class="term" x="0" y="94" width="1200" height="56" />
+    <rect class="status" x="24" y="118" width="1080" height="28" rx="14" />
     <g class="mono mono-status">
-      <g transform="translate(44 85) scale(0.5833)" fill="#cccccc" fill-rule="evenodd">
+      <g transform="translate(44 125) scale(0.5833)" fill="#cccccc" fill-rule="evenodd">
         <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04c-2.04.027-3.91 1.183-4.961 3.014c-2.117 3.675-.546 9.103 1.519 12.09c1.013 1.454 2.208 3.09 3.792 3.039c1.52-.065 2.09-.987 3.935-.987c1.831 0 2.35.987 3.96.948c1.637-.026 2.676-1.48 3.676-2.948c1.156-1.688 1.636-3.325 1.662-3.415c-.039-.013-3.182-1.221-3.22-4.857c-.026-3.04 2.48-4.494 2.597-4.559c-1.429-2.09-3.623-2.324-4.39-2.376c-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83c-1.207.052-2.662.805-3.532 1.818c-.78.896-1.454 2.338-1.273 3.714c1.338.104 2.715-.688 3.559-1.701"/>
       </g>
-      <text class="fg" x="70" y="98">clefort</text>
-      <text class="sep" x="148" y="98">❯</text>
-      <text class="fg" x="170" y="98">~/development/chadlefort.com</text>
-      <text class="sep" x="438" y="98">❯</text>
-      <g transform="translate(460 85) scale(0.5833)" fill="none" stroke="#f0a868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <text class="fg" x="70" y="138">clefort</text>
+      <text class="sep" x="148" y="138">❯</text>
+      <text class="fg" x="170" y="138">~/development/chadlefort.com</text>
+      <text class="sep" x="438" y="138">❯</text>
+      <g transform="translate(460 125) scale(0.5833)" fill="none" stroke="#f0a868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M15 6a9 9 0 0 0-9 9V3"/>
         <circle cx="18" cy="6" r="3"/>
         <circle cx="6" cy="18" r="3"/>
       </g>
-      <text class="branch" x="486" y="98">feat/redesign</text>
-      <text class="sep" x="617" y="98">❯</text>
-      <g transform="translate(637 85) scale(0.5833)" fill="none" stroke="#cccccc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <text class="branch" x="486" y="138">feat/redesign</text>
+      <text class="sep" x="617" y="138">❯</text>
+      <g transform="translate(637 125) scale(0.5833)" fill="none" stroke="#cccccc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M13 21h8M15 5l4 4m2.174-2.188a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/>
       </g>
-      <text class="fg" x="663" y="98">2</text>
-      <g transform="translate(689 85) scale(0.5833)" fill="none" stroke="#4ec9b0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <text class="fg" x="663" y="138">2</text>
+      <g transform="translate(689 125) scale(0.5833)" fill="none" stroke="#4ec9b0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M5 12h14m-7-7v14"/>
       </g>
-      <text class="add" x="715" y="98">13</text>
-      <g transform="translate(749 85) scale(0.5833)" fill="none" stroke="#f44748" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <text class="add" x="715" y="138">13</text>
+      <g transform="translate(749 125) scale(0.5833)" fill="none" stroke="#f44748" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M5 12h14"/>
       </g>
-      <text class="del" x="775" y="98">0</text>
-      <text class="sep" x="799" y="98">❯</text>
-      <g transform="translate(819 85) scale(0.5833)" fill="#4ec9b0" fill-rule="evenodd">
+      <text class="del" x="775" y="138">0</text>
+      <text class="sep" x="799" y="138">❯</text>
+      <g transform="translate(819 125) scale(0.5833)" fill="#4ec9b0" fill-rule="evenodd">
         <path d="M11.998 24c-.321 0-.641-.084-.922-.247L8.14 22.016c-.438-.245-.224-.332-.08-.383c.585-.203.703-.25 1.328-.604c.065-.037.151-.023.218.017l2.256 1.339a.29.29 0 0 0 .272 0l8.795-5.076a.28.28 0 0 0 .134-.238V6.921a.28.28 0 0 0-.137-.242l-8.791-5.072a.28.28 0 0 0-.271 0L3.075 6.68a.28.28 0 0 0-.139.241v10.15a.27.27 0 0 0 .139.235l2.409 1.392c1.307.654 2.108-.116 2.108-.89V7.787c0-.142.114-.253.256-.253h1.115c.139 0 .255.112.255.253v10.021c0 1.745-.95 2.745-2.604 2.745c-.508 0-.909 0-2.026-.551L2.28 18.675a1.86 1.86 0 0 1-.922-1.604V6.921c0-.659.353-1.275.922-1.603L11.075.236a1.93 1.93 0 0 1 1.848 0l8.794 5.082c.57.329.924.944.924 1.603v10.15a1.86 1.86 0 0 1-.924 1.604l-8.794 5.078c-.28.163-.599.247-.925.247m7.101-10.007c0-1.9-1.284-2.406-3.987-2.763c-2.731-.361-3.009-.548-3.009-1.187c0-.528.235-1.233 2.258-1.233c1.807 0 2.473.389 2.747 1.607a.254.254 0 0 0 .247.199h1.141a.26.26 0 0 0 .186-.081a.26.26 0 0 0 .067-.196c-.177-2.098-1.571-3.076-4.388-3.076c-2.508 0-4.004 1.058-4.004 2.833c0 1.925 1.488 2.457 3.895 2.695c2.88.282 3.103.703 3.103 1.269c0 .983-.789 1.402-2.642 1.402c-2.327 0-2.839-.584-3.011-1.742a.255.255 0 0 0-.253-.215h-1.137a.25.25 0 0 0-.254.253c0 1.482.806 3.248 4.655 3.248c2.788.001 4.386-1.096 4.386-3.013"/>
       </g>
-      <text class="add" x="845" y="98">v24.15.0</text>
+      <text class="add" x="845" y="138">v24.15.0</text>
     </g>
 
     <!-- terminal body -->
-    <rect class="term" x="0" y="110" width="1200" height="610" />
+    <rect class="term" x="0" y="150" width="1200" height="610" />
 
     <g class="mono">
-      <text x="32" y="144">
+      <text x="32" y="184">
         <tspan class="prompt">→</tspan>
         <tspan class="fg" dx="8">cat ABOUT.md</tspan>
       </text>
 
-      <text x="32" y="186" class="bold">
+      <text x="32" y="226" class="bold">
         <tspan class="prompt"># </tspan>
         <tspan class="fg">Chad Lefort</tspan>
       </text>
 
-      <text class="comment" x="32" y="222">Senior frontend engineer from Mandeville, Louisiana with 13+ years of experience.</text>
+      <text class="comment" x="32" y="262">Senior frontend engineer from Mandeville, Louisiana with 13+ years of experience.</text>
 
-      <text x="32" y="266" class="bold">
+      <text x="32" y="306" class="bold">
         <tspan class="prompt">## </tspan>
         <tspan class="fg">About</tspan>
       </text>
 
-      <text x="32" y="304">
+      <text x="32" y="344">
         <tspan class="prompt">&gt; </tspan>
         <tspan class="comment">Shortly after I was given my first computer, I developed a strong passion for programming.</tspan>
       </text>
 
-      <text x="32" y="344">
+      <text x="32" y="384">
         <tspan class="prompt">&gt; </tspan>
         <tspan class="comment">I'm constantly furthering my skills to keep up with the ever changing demand the web has.</tspan>
       </text>
 
-      <text x="32" y="384">
+      <text x="32" y="424">
         <tspan class="prompt">&gt; </tspan>
         <tspan class="comment">I enjoy the feeling of accomplishment when programming, and I take pride in writing</tspan>
       </text>
-      <text class="comment" x="32" y="410">maintainable and efficient code.</text>
+      <text class="comment" x="32" y="450">maintainable and efficient code.</text>
 
-      <text x="32" y="450">
+      <text x="32" y="490">
         <tspan class="prompt">&gt; </tspan>
         <tspan class="comment">Committed to team success, I prioritize delivering exceptional products that provide</tspan>
       </text>
-      <text class="comment" x="32" y="476">an outstanding user experience.</text>
+      <text class="comment" x="32" y="516">an outstanding user experience.</text>
     </g>
 
     <!-- repeat status bar before final prompt -->
-    <rect class="status" x="24" y="510" width="1080" height="28" rx="14" />
+    <rect class="status" x="24" y="550" width="1080" height="28" rx="14" />
     <g class="mono mono-status">
-      <g transform="translate(44 517) scale(0.5833)" fill="#cccccc" fill-rule="evenodd">
+      <g transform="translate(44 557) scale(0.5833)" fill="#cccccc" fill-rule="evenodd">
         <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04c-2.04.027-3.91 1.183-4.961 3.014c-2.117 3.675-.546 9.103 1.519 12.09c1.013 1.454 2.208 3.09 3.792 3.039c1.52-.065 2.09-.987 3.935-.987c1.831 0 2.35.987 3.96.948c1.637-.026 2.676-1.48 3.676-2.948c1.156-1.688 1.636-3.325 1.662-3.415c-.039-.013-3.182-1.221-3.22-4.857c-.026-3.04 2.48-4.494 2.597-4.559c-1.429-2.09-3.623-2.324-4.39-2.376c-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83c-1.207.052-2.662.805-3.532 1.818c-.78.896-1.454 2.338-1.273 3.714c1.338.104 2.715-.688 3.559-1.701"/>
       </g>
-      <text class="fg" x="70" y="530">clefort</text>
-      <text class="sep" x="148" y="530">❯</text>
-      <text class="fg" x="170" y="530">~/development/chadlefort.com</text>
-      <text class="sep" x="438" y="530">❯</text>
-      <g transform="translate(460 517) scale(0.5833)" fill="none" stroke="#f0a868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <text class="fg" x="70" y="570">clefort</text>
+      <text class="sep" x="148" y="570">❯</text>
+      <text class="fg" x="170" y="570">~/development/chadlefort.com</text>
+      <text class="sep" x="438" y="570">❯</text>
+      <g transform="translate(460 557) scale(0.5833)" fill="none" stroke="#f0a868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M15 6a9 9 0 0 0-9 9V3"/>
         <circle cx="18" cy="6" r="3"/>
         <circle cx="6" cy="18" r="3"/>
       </g>
-      <text class="branch" x="486" y="530">feat/redesign</text>
-      <text class="sep" x="617" y="530">❯</text>
-      <g transform="translate(637 517) scale(0.5833)" fill="none" stroke="#cccccc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <text class="branch" x="486" y="570">feat/redesign</text>
+      <text class="sep" x="617" y="570">❯</text>
+      <g transform="translate(637 557) scale(0.5833)" fill="none" stroke="#cccccc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M13 21h8M15 5l4 4m2.174-2.188a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/>
       </g>
-      <text class="fg" x="663" y="530">2</text>
-      <g transform="translate(689 517) scale(0.5833)" fill="none" stroke="#4ec9b0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <text class="fg" x="663" y="570">2</text>
+      <g transform="translate(689 557) scale(0.5833)" fill="none" stroke="#4ec9b0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M5 12h14m-7-7v14"/>
       </g>
-      <text class="add" x="715" y="530">13</text>
-      <g transform="translate(749 517) scale(0.5833)" fill="none" stroke="#f44748" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <text class="add" x="715" y="570">13</text>
+      <g transform="translate(749 557) scale(0.5833)" fill="none" stroke="#f44748" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M5 12h14"/>
       </g>
-      <text class="del" x="775" y="530">0</text>
-      <text class="sep" x="799" y="530">❯</text>
-      <g transform="translate(819 517) scale(0.5833)" fill="#4ec9b0" fill-rule="evenodd">
+      <text class="del" x="775" y="570">0</text>
+      <text class="sep" x="799" y="570">❯</text>
+      <g transform="translate(819 557) scale(0.5833)" fill="#4ec9b0" fill-rule="evenodd">
         <path d="M11.998 24c-.321 0-.641-.084-.922-.247L8.14 22.016c-.438-.245-.224-.332-.08-.383c.585-.203.703-.25 1.328-.604c.065-.037.151-.023.218.017l2.256 1.339a.29.29 0 0 0 .272 0l8.795-5.076a.28.28 0 0 0 .134-.238V6.921a.28.28 0 0 0-.137-.242l-8.791-5.072a.28.28 0 0 0-.271 0L3.075 6.68a.28.28 0 0 0-.139.241v10.15a.27.27 0 0 0 .139.235l2.409 1.392c1.307.654 2.108-.116 2.108-.89V7.787c0-.142.114-.253.256-.253h1.115c.139 0 .255.112.255.253v10.021c0 1.745-.95 2.745-2.604 2.745c-.508 0-.909 0-2.026-.551L2.28 18.675a1.86 1.86 0 0 1-.922-1.604V6.921c0-.659.353-1.275.922-1.603L11.075.236a1.93 1.93 0 0 1 1.848 0l8.794 5.082c.57.329.924.944.924 1.603v10.15a1.86 1.86 0 0 1-.924 1.604l-8.794 5.078c-.28.163-.599.247-.925.247m7.101-10.007c0-1.9-1.284-2.406-3.987-2.763c-2.731-.361-3.009-.548-3.009-1.187c0-.528.235-1.233 2.258-1.233c1.807 0 2.473.389 2.747 1.607a.254.254 0 0 0 .247.199h1.141a.26.26 0 0 0 .186-.081a.26.26 0 0 0 .067-.196c-.177-2.098-1.571-3.076-4.388-3.076c-2.508 0-4.004 1.058-4.004 2.833c0 1.925 1.488 2.457 3.895 2.695c2.88.282 3.103.703 3.103 1.269c0 .983-.789 1.402-2.642 1.402c-2.327 0-2.839-.584-3.011-1.742a.255.255 0 0 0-.253-.215h-1.137a.25.25 0 0 0-.254.253c0 1.482.806 3.248 4.655 3.248c2.788.001 4.386-1.096 4.386-3.013"/>
       </g>
-      <text class="add" x="845" y="530">v24.15.0</text>
+      <text class="add" x="845" y="570">v24.15.0</text>
     </g>
 
     <g class="mono">
-      <text x="32" y="572">
+      <text x="32" y="612">
         <tspan class="prompt">→</tspan>
       </text>
-      <rect class="cursor" x="52" y="558" width="9" height="18" />
+      <rect class="cursor" x="52" y="598" width="9" height="18" />
     </g>
   </g>
 </svg>
